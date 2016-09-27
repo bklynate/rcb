@@ -1,0 +1,47 @@
+.center-text {
+  text-align: center;
+}
+
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.green-text {
+  color: green;
+}
+
+.orange-text {
+  color: orange;
+}
+
+.big-text {
+  font-size: 55px;
+}
+
+.shrunk-text {
+  font-size: 7px;
+}
+
+.strong-text {
+  font-weight: bold;
+}
+
+.diff-font {
+  font-family: 'Roboto Slab', serif;
+}
+
+.styledFont {
+  font-family: 'Roboto Slab', serif;
+  color: #999999;
+  font-style: italic;
+}
+
+#styledImage {
+  border-width: 15px;
+  border-color: #999999;
+  border-style: groove;
+}
