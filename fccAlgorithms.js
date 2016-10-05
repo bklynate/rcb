@@ -155,3 +155,15 @@ function mutation(arr) {
 }
 
 mutation(["hello", "hey"])
+
+function bouncer(arr) {
+  // Don't show a false ID to this bouncer.
+  function isThisTrue(item){
+    if(Boolean(item).toString() === "true"){
+      return item;
+    }
+  }
+  return arr.filter(isThisTrue);
+}
+
+bouncer([7, "ate", "", false, 9]);
